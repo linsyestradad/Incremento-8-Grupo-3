@@ -1,0 +1,269 @@
+/* Estilos generales para la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo del contenedor principal de la aplicación */
+.App {
+  text-align: center;
+}
+
+/* Estilo del encabezado de la aplicación */
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido del header */
+  justify-content: space-between; /* Espacio entre el logo y el menú */
+  padding: 0 20px; /* Espaciado horizontal */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative; /* Necesario para el posicionamiento del menú desplegable */
+}
+
+/* Estilo del logo dentro del encabezado */
+.App-logo {
+  height: 60px; /* Tamaño del logo */
+  margin-left: 20px; /* Espacio a la izquierda */
+}
+
+/* Estilo del logo dentro del encabezado */
+.logo img {
+  height: 30px; /* Ajusta el tamaño del logo */
+  cursor: pointer;
+}
+
+/* Estilo para el menú de usuario */
+.user-menu {
+  display: flex;
+  align-items: center;
+  position: relative; /* Necesario para el dropdown del menú de usuario */
+}
+
+/* Estilo del icono del perfil del usuario */
+.profile-icon {
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Estilo del menú desplegable del usuario */
+.user-dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+/* Estilo para los elementos del menú desplegable del usuario */
+.user-menu-item {
+  padding: 10px;
+  text-align: left;
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Estilo para los elementos del menú desplegable del usuario en hover */
+.user-menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo del menú lateral */
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: -200px; /* Inicialmente oculto fuera de la pantalla */
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 999; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+/* Cuando el menú está abierto */
+.side-nav.open {
+  left: 0;
+}
+
+/* Estilo de los elementos del menú lateral */
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.side-nav li:hover {
+  background-color: #575757;
+}
+
+/* Estilo del contenido principal */
+.App-main {
+  padding: 20px;
+  margin-right: 25px; /* Desplazamiento para dar espacio al menú lateral */
+}
+
+/* Estilo del footer */
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo para los botones del módulo */
+.module-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilo para cada tarjeta de módulo */
+.module-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.module-card img {
+  height: 100px; /* Tamaño de la imagen del módulo */
+  margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.module-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Estilo para el botón de módulo */
+.btn-module {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+/* Estilo del menú lateral */
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: -200px; /* Inicialmente oculto fuera de la pantalla */
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 999; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+/* Cuando el menú está abierto */
+.side-nav.open {
+  left: 0;
+}
+
+/* Estilo de los elementos del menú lateral */
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.side-nav li:hover {
+  background-color: #575757;
+}
+
+
+
+
+
+
+
+
+
+/* Estilo para el menú de usuario */
+.user-menu {
+  display: flex;
+  align-items: center;
+  position: relative; /* Necesario para el dropdown del menú de usuario */
+}
+
+/* Estilo del icono del perfil del usuario */
+.profile-icon {
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Estilo del menú desplegable del usuario */
+.user-dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+/* Estilo para los elementos del menú desplegable del usuario */
+.user-menu-item {
+  padding: 10px;
+  text-align: left;
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Estilo para los elementos del menú desplegable del usuario en hover */
+.user-menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta el espacio superior si es necesario */
+}
+
+/* Opcional: Estilos para los botones de paginación */
+.pagination .page-item .page-link {
+  color: #007bff; /* Color del texto de los botones */
+  border: 1px solid #dee2e6;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+

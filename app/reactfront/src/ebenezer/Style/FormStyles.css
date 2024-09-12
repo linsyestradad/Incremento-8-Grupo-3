@@ -1,0 +1,161 @@
+/* Estilos generales para todos los componentes de formulario */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #61dafb;
+    outline: none;
+}
+
+.form-buttons {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #61dafb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #4a90e2;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+
+.btn-warning {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #e94e77;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #d03a5a;
+    transform: scale(1.05);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #282c34;
+    color: white;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #e6f7ff;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-controls button {
+    margin: 0 10px;
+}
+
+/* Centrar el contenido de los encabezados de la tabla */
+.table th {
+    text-align: center; /* Centra el contenido de las cabeceras */
+}
+
+/* Centrar el contenido de las celdas de datos */
+.table tbody td {
+    text-align: center; /* Centra el contenido de las celdas de datos */
+}
+
+/* Opcional: centrar toda la tabla y ajustarla */
+.table {
+    margin: 0 auto; /* Centrar la tabla dentro de su contenedor */
+}
+
+* Estilo para el contenedor del buscador */
+.search-container {
+    margin-bottom: 20px; /* Ajusta el valor según lo necesites */
+}
+
+/* Estilo para el buscador */
+.search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; /* Espacio adicional debajo del campo de búsqueda */
+}

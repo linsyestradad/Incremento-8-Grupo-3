@@ -1,0 +1,47 @@
+/* Contenedor del buscador */
+.search-container {
+  padding: 20px; /* Añade padding si es necesario */
+  max-width: 600px; /* Establece un ancho máximo */
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+/* Estilo del campo de búsqueda */
+.search-input {
+  width: 100%; /* Asegura que el input use el 100% del ancho del contenedor */
+  padding: 10px; /* Añade padding interno */
+  border: 1px solid #ccc; /* Color del borde */
+  border-radius: 4px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Espacio debajo del campo de búsqueda */
+}
+
+/* Estilo para la tabla de usuarios o clientes */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Espacio arriba de la tabla */
+}
+
+/* Encabezados de la tabla */
+.table th {
+  background-color: #f4f4f4; /* Color de fondo para los encabezados */
+  padding: 10px; /* Padding para las celdas de encabezado */
+  border-bottom: 1px solid #ddd; /* Borde inferior para encabezados */
+}
+
+/* Celdas de la tabla */
+.table td {
+  padding: 10px; /* Padding para las celdas */
+  border-bottom: 1px solid #ddd; /* Borde inferior para las celdas */
+}
+
+/* Última fila de la tabla (sin borde inferior) */
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Estilo para mensaje de no resultados */
+.no-results {
+  padding: 10px;
+  color: #888;
+  text-align: center; /* Centra el texto si es necesario */
+}
